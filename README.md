@@ -10,20 +10,20 @@ NightRest is designed to keep the player experience simple while giving server o
 
 ## Features
 
-- Configure sleep requirements by player count or percentage.
-- Count sleeping players per world or across the entire server.
-- Configure which worlds NightRest can operate in.
-- Exclude spectators from the sleep count.
-- Optionally exclude players using a permission.
-- Prevent vanilla sleeping from skipping the night before NightRest processes the configured requirement.
-- Fully customizable sleep and night-skip broadcasts.
-- Multi-line broadcasts with colors, prefixes, separators, sounds, and placeholders.
-- Built-in localization system.
-- 9 included languages.
-- Reload configuration without restarting the server.
-- Built-in status, version, test, and debugging commands.
-- No client-side mod required.
-- No required third-party plugins.
+* Configure sleep requirements by player count or percentage.
+* Count sleeping players per world or across the entire server.
+* Configure which worlds NightRest can operate in.
+* Exclude spectators from the sleep count.
+* Optionally exclude players using a permission.
+* Prevent vanilla sleeping from skipping the night before NightRest processes the configured requirement.
+* Fully customizable sleep and night-skip broadcasts.
+* Multi-line broadcasts with colors, prefixes, separators, sounds, and placeholders.
+* Built-in localization system.
+* 9 included languages.
+* Reload configuration without restarting the server.
+* Built-in status, version, and broadcast test commands, with optional debug mode.
+* No client-side mod required.
+* No required third-party plugins.
 
 ---
 
@@ -39,3 +39,12 @@ For example, with two eligible players online and a requirement of `2` sleepers:
 
 2/2 players sleeping
 → NightRest skips the night.
+```
+
+---
+
+## License
+
+NightRest is released under the MIT License.
+
+See the [LICENSE](LICENSE) file for the full license text.
